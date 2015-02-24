@@ -1,0 +1,15 @@
+#include "stdafx.h"
+#include "stdio.h"
+#include "stdlib.h"
+#include "conio.h"
+
+
+void main() 
+{int d;
+	printf("\n\n ingresa tu edad:   ");
+	scanf("\n\n %d",&d);
+	printf("\n\n tu edad es %d",d);
+
+	getch();
+}
+
