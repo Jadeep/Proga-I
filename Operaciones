@@ -1,0 +1,22 @@
+#include "stdafx.h"
+#include<iostream>
+#include "conio.h"
+using namespace std;
+
+
+int main() 
+{
+	int a,b,c,d,e,f;
+		float g;
+	cout << "ingrese dos numeros" << endl;
+	cin >> a >> b;
+	c = a+b;
+	d = a-b;
+	e = a/b;
+	f = a*b;
+	g = a%b;
+	cout << "Los resultados son: " << c << "   " << d << "   " << e << "   " << f << "   " << g << endl;
+	getch();
+	return 0;
+
+}
