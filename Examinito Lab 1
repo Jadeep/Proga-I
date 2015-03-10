@@ -1,0 +1,39 @@
+// Examinito Javier Valdez Prado//
+
+#include "stdafx.h"
+#include<iostream>
+#include "stdio.h"
+#include "conio.h"
+using namespace std;
+
+
+
+void main() 
+{
+	int a,b,c,i,l,r,t,v;
+	
+	cout << "Ingrese un lado del cuadrado:" << endl;
+	cin >> l;
+	c = l*l;
+	cout << "El area del cuadrado es: " << c << endl;
+	cout << "\n\n"<< endl;
+	
+	cout << "Ingrese la base y la altura del triangulo:" << endl;
+	cin >> b >> a;
+	t = (b*a)/2;
+	cout << "El area del triangulo es: " << t << endl;
+	cout << "\n\n"<< endl;
+	
+	cout << "Ingrese la base y la altura del rectangulo:" << endl;
+	cin >> b >> a;
+	r = (b*a);
+	cout << "El area del Rectangulo es: " << r << endl;
+	cout << "\n\n"<< endl;
+	
+	cout << "Ingrese el monto de venta:" << endl;
+	cin >> v;
+	i = v*0.13;
+	cout << "El impuesto de la venta es : " << i << endl;
+	
+	getch();
+}
