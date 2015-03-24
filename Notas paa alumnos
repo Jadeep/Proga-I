@@ -1,0 +1,47 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "stdio.h"
+using namespace std;
+
+
+void main()
+{
+	float A,B,C,S,D,i,N,H,R;
+	cout<<"Ingrese el numeo de estudiantes"; 
+	cin>> N;
+
+	for(i=1;i<=N;i++)
+	{
+
+	cout<<"Ingrese el primer parcial";
+
+	cin>> A;
+
+	cout<<"Ingrese el segundo parcial";
+
+	cin>> B;
+
+	cout<<"Ingrese el tercer parcial";
+
+	cin>> C;
+
+	S= (A+B+C)/3;
+
+		cout<<"El promedio de los parciales es " << S; 
+	
+	cout<<"Ingrese la nota practica";
+
+	cin>> D;
+
+	cout<<"Ingrese el examen final";
+
+	cin>> R;
+	
+	H= R+D+S;
+
+   cout<<"El promedio de la Nota es  " << H;
+   }
+	getch();
+}
+
